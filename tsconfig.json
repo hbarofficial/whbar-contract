@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "esnext",
+        "module": "commonjs",
+        "strict": true,
+        "outDir": "dist"
+    },
+    "include": [
+        "./test",
+        "./scripts"
+    ],
+    "files": [
+        "hardhat.config.ts"
+    ]
+}
